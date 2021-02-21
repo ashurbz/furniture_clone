@@ -1,4 +1,5 @@
 import {BiPlay,BiCheck}  from 'react-icons/bi'
+import {AiOutlineCopyrightCircle} from 'react-icons/ai'
 import {FaLessThan,FaGreaterThan} from "react-icons/fa"
 import './App.css';
 
@@ -210,6 +211,145 @@ function App() {
            </div>
          </div>
   
+          <div className="five_container">
+         <div className='for_you'>
+           Instagram : Curoot
+         </div>
+            <div className='images_con'>
+                  <div>
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVybml0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""/>
+                  </div>
+                  <div>
+                    <div className='insta'>
+                       <img src="instagram.svg" alt=""/>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt=""/>
+                    </div> 
+                    <div>
+                    <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnVybml0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""/>
+                    </div>
+                    <div>
+                    <img src="https://images.unsplash.com/photo-1544457070-4cd773b4d71e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8ZnVybml0dXJlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""/>
+                    </div>
+                   
+            </div>
+          </div>
+
+<div className="six_container">
+  <div className='logo_heading'>
+                Fetured In
+  </div>
+  <div className='logos'>
+            <img src="/Capture.png" alt=""/>      
+            <img src="/Capture2.png" alt=""/>   
+            <img src="/Capture3.png" alt=""/>   
+            <img src="/Capture4.png" alt=""/>   
+            <img src="/Capture5.png" alt=""/>   
+  </div>
+</div>
+   
+                  <div className="footer">
+                    <div className="upper">
+                    <div className='f_info'>
+                      <div>
+                        Curoot
+                      </div>
+                      <div className='f_logo'>
+                         <img src="/linkedin.png" alt=""/>
+                         <img src="/facebook.png" alt=""/>
+                         <img src="/twitter.png" alt=""/>
+                         <img src="/instagram.svg" alt=""/>
+                      </div>
+                      <div className='f dis'>
+                      Cantata One is a high contrast extended Didone style text face. In addition to being useful in medium to large text sizes.
+
+                      </div>
+                    </div>
+                    <div className='list1 dis'>
+                      <h3>
+                        House & Features
+                      </h3>
+                      <ul>
+                        <li>
+                          Reviews & ratings
+                        </li>
+                        <li>
+                          Community Q & A
+                        </li>
+                        <li>
+                          Social Marketing
+                        </li>
+                        <li>
+                          Product Manager @ Slack
+                        </li>
+                        <li>
+                          Analysis
+                        </li>
+                      </ul>
+                    </div>
+                    <div className='list2 dis'>
+                    <h3>
+                        Customer Care
+                      </h3>
+                      <ul>
+                        <li>
+                          Help center
+                        </li>
+                        <li>
+                          Concact Support
+                        </li>
+                        <li>
+                          Release notes
+                        </li>
+                        <li>
+                          FAQ
+                        </li>
+                        <li>
+                          Social
+                        </li>
+                      </ul>
+                    </div>
+                 
+                 
+                    <div className='list3 dis'>
+                    <h3>
+                        Buy & Sell
+                      </h3>
+                      <ul>
+                        <li>
+                          About us
+                        </li>
+                        <li>
+                          Press rooms
+                        </li>
+                        <li>
+                          Team
+                        </li>
+                        <li>
+                          We hiring!
+                        </li>
+                        <li>
+                          Articles
+                        </li>
+                      </ul>
+                    </div>
+                 </div>
+                    <div className="lower">
+                        <div className="line">
+
+                        </div>
+                        <div>
+                        <AiOutlineCopyrightCircle/>
+                    Copyright 2020 by Mayad Ahmed. All rights reserved.
+                        </div>
+                      <div className="line">
+
+                      </div>
+                       
+                    </div>
+                  </div>
+
+   
     </div>
   );
 }
