@@ -1,38 +1,403 @@
-.App {
-  text-align: center;
+.App div{
+ box-sizing: border-box  !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.first_container{
+  display: flex;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left,.right{ 
+  width: 50%;
+  height: 50vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left{
+  padding: 0 7vw;
+  display: flex;
+  padding-bottom: 7vw;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vw;
+}
+
+.logo{
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.nav_item{
+  
+  font-weight: 100;
+  font-size: 1.4vw;
+  color: lightgray;
+  font-weight: 400;
+
+
+}
+.bold{
+  font-size: 6vw;
+  font-weight: 700;
+}
+.dis{
+  color: lightgray;
+  font-size: 1.4vw;
+  font-weight: 500;
+  line-height: 2.2vw;
+  letter-spacing: 0.5px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.shop{
+  background-color: black;
+  color: white;
+  padding: 0px 2vw;
+  font-size: 1.4vw;
+  display: flex;
+  align-items: center;
+  height: 3vw;
+  letter-spacing: 0.16vw;
+  filter: blur(0.5px);
+}
+
+.watch{
+  display: flex;
+  letter-spacing: 0.16vw;
+  font-size: 1.35vw;
+  align-items: center;
+  font-weight: 700;
+}
+
+.play{
+  height: 2.8vw;
+  width: 2.8vw;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  border-radius: 50%;
+  border: 0.16vw lightgray solid;
+}
+
+.right{
+  overflow: hidden;
+  position: relative;
+  
+
+}
+
+.right img{
+  height: 100%;
+}
+
+.cart{
+  background-color:rgba(230, 227, 227, 0.9) ;
+  position: absolute;
+  top: 2vw;
+  right: 5vw;
+  color: black; 
+  font-size: 1vw;
+
+
+}
+.prev_next{
+  background-color:rgba(230, 227, 227, 0.9) ;
+  
+  position: absolute;
+  bottom: 0vw;
+  left: 0vw;
+  color: black;
+  font-size: 1.3vw;
+  width: 70%;
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  height: 7vw;
+  align-items: center;
+
+ 
+}
+
+.second_container{
+  margin-top:10vw;
+ 
+}
+
+.second_container  span{
+  padding-top: 3vw;
+  padding-right: 5vw;
+  font-size: 1.4vw;
+  font-weight: 600;
+
+
+}
+
+.head_2{
+  display: flex;
+  
+  
+
+}
+.head_2 div{
+  width: 50%;
+  text-align: left;
+  padding-bottom: 5vw;
+}
+.for_you{
+    font-size: 3.8vw;
+    font-weight: 700;
+    line-height: 5vw;
+    letter-spacing: 0.16vw;
+    padding-left: 7vw;
+
+}
+.head_2 .dis{
+  padding-right: 12vw;
+}
+
+.row1 img,.row2 img{
+  width: 100%;
+  height: 20vw;
+  margin-bottom: 2vw;
+}
+
+.row1,.row2{
+
+  display: flex;
+  height: 28vw;
+  padding-left: 7vw;
+  
+  overflow: hidden;
+  color: gray;
+  letter-spacing: 0.16vw;
+
+}
+
+.row2{
+  padding-left:20vw
+}
+.row1 div,.row2 div{
+  overflow: hidden;
+
+}
+
+.row1 .image1,.row2 .image1{
+  width: 50%;
+  margin-right: 4vw;
+
+}
+
+.row1 .image2,.row2 .image2{
+  width: 30%;
+  
+}
+
+.third_container,.four_container{
+  height: 54vw;
+  padding-right: 4vw;
+ 
+
+}
+
+.head_3{
+  justify-content: space-between;
+  display: flex;
+  padding-top: 4vw;
+  align-items: center;
+  margin-bottom: 3vw;
+
+}
+.style_text{
+   
+   font-size: 2vw;
+   font-weight: 500;
+   line-height: 2.2vw;
+   letter-spacing: 0.3vw;
+   border-bottom: 1px solid black;
+   height: 2.4vw;
+  
+}
+
+.slider{
+   display: flex;
+   padding-left: 7vw;
+}
+
+.icons{
+   height: 35vw;
+  flex-grow: 1;
+  width: 80vw;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.arrow{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 1.5vw;
+
+}
+
+.icon{
+ 
+  width: 18%;
+  height: 100%;
+  background-color: rgb(247, 245, 241,0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+  font-size: 1.3vw;
+  color: rgb(175, 174, 174);
+  font-weight: 500;
+  letter-spacing: 0.12vw;
+  
+
+
+  
+}
+.icon img{
+  height: 5vw;
+}
+
+.icons >div{
+  display: flex;
+  justify-content: space-between;
+  height: 45%;
+  
+    
+}
+
+
+.four_container{
+  padding-top: 5vw;
+  display: flex;
+  padding-left: 7vw;
+  padding-right: 4vw;
+
+}
+
+
+
+.left_4 , .right_4{
+   width: 50%;
+
+}
+
+.right_4{
+  padding-left: 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+
+.chair{
+  position: relative;
+  width: 100%;  
+  overflow: visible;
+  background:linear-gradient(white,rgb(230, 230, 230)) ;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.chair img{
+  
+  height: 100%;
+  margin-top: -10vw;
+}
+
+
+.card{
+  position: absolute;
+  bottom: -6vw;
+  right: -5vw;
+  display: flex;
+  background-color: white;
+  width: 70%;
+  height: 8vw;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+  box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.check{
+  display: flex;
+  width: 50%;
+  font-size: 1.4vw;
+  line-height: 4vw;
+  display: flex;
+  letter-spacing: 0.1vw;
+  align-items: center;
+}
+.checks{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dp img{
+  height: 6vw;
+  margin: 0;
+  width: 6vw;
+  border-radius: 5px;
+ 
+}
+.dp{
+  padding: 0.16vw;
+  width: 7vw;
+  height: 7vw;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+  
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+.name{
+  font-size: 1.5vw;
+  font-weight: 500;
+  letter-spacing: 0.16vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about{
+  font-size: 1vw;
+  color: lightgray;
+  font-weight: 500;
 }
+
+.info{
+  width: 70%;
+}
+
+
+
+
+
+
